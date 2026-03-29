@@ -3,7 +3,7 @@ package model;
 import static model.constants.Colour.APPLE_RED;
 import model.constants.Discount;
 
-public class Apple extends Food implements Discountable {
+public class Apple extends Food {
     String colour;
 
     public Apple(int amount, double price, String colour) {
